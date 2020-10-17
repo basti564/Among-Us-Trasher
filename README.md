@@ -1,5 +1,5 @@
 # Among-Us-Trasher
-Is A Simple Mod Menu For Among Us
+Is A Simple External Mod Menu With Overlay For Among Us
 ## Features
 ### Movement
 - (Right-)Click To Teleport
