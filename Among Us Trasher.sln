@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29709.97
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Among Us Trasher", "Among Us Trasher\Among Us Trasher.csproj", "{30FB9696-4EC6-41BD-AA3F-CE21360B6FDD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{30FB9696-4EC6-41BD-AA3F-CE21360B6FDD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30FB9696-4EC6-41BD-AA3F-CE21360B6FDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30FB9696-4EC6-41BD-AA3F-CE21360B6FDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30FB9696-4EC6-41BD-AA3F-CE21360B6FDD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {98A4C856-958B-4515-AEA2-4D9D6788D548}
+	EndGlobalSection
+EndGlobal
