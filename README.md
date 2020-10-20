@@ -9,6 +9,7 @@ Is A Simple External Mod Menu With Overlay For Among Us
 - Display Speed
 - Display Current Emergency Cooldown
 ## How To Use
+- Go to Project > Manage NuGet Packages > Search for "Memory.dll.x86" from "NeWaGe, hollow87" > Click on it > Click "Install"
 - Open Among Us
 - Start Among-Us-Trasher
 - Hold The Control Key To Open The Mod Menu
