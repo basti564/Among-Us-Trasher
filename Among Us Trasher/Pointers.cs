@@ -25,10 +25,10 @@ namespace Among_Us_Trasher
 
         //Cosmetics
         // public static string Username = "GameAssembly.dll+014688CC,5c,4,c";
-        public static string Color = "GameAssembly.dll+01C555C8,5c,10,34,10";
-        // public static string Pet = "GameAssembly.dll+014688CC,5c,1c";
-        public static string Hat = "GameAssembly.dll+01C555C8,5c,10,34,14";
-        public static string Costume = "GameAssembly.dll+01C555C8,5c,10,34,1c";
+        public static string Color = "GameAssembly.dll+01C5803C,5c,20";
+        public static string Pet = "GameAssembly.dll+01C5803C,5c,24";
+        public static string Hat = "GameAssembly.dll+01C5803C,5c,28";
+        public static string Costume = "GameAssembly.dll+01C5803C,5c,2C";
 
         //Lobby
         public static string Map = "GameAssembly.dll+01C57F7C,5C,4,10";
