@@ -24,7 +24,7 @@ namespace Among_Us_Trasher
         public static string ReportDistance = "GameAssembly.dll+01C57F7C,5c,0,2c";
 
         //Cosmetics
-        // public static string Username = "GameAssembly.dll+014688CC,5c,4,c";
+        public static string Username = "GameAssembly.dll+01C5803C,5c,4,c";
         public static string Color = "GameAssembly.dll+01C5803C,5c,20";
         public static string Pet = "GameAssembly.dll+01C5803C,5c,24";
         public static string Hat = "GameAssembly.dll+01C5803C,5c,28";
