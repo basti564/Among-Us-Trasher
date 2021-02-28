@@ -9,6 +9,7 @@ Is A Simple External Mod Menu With Overlay For Among Us v.2020.12.9s
 - Display Speed
 - Display Current Emergency Cooldown
 ## How To Use
+- Open this project in [Visual Studio 2019](https://visualstudio.microsoft.com/vs/community/)
 - Go to Project > Manage NuGet Packages > Search for "Memory.dll.x86" from "NeWaGe, hollow87" > Click on it > Click "Install"
 - Open Among Us
 - Start Among-Us-Trasher
