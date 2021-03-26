@@ -55,17 +55,24 @@ namespace Among_Us_Trasher
 
         private void FormOverlay_Load(object sender, EventArgs e)
         {
-            AmongUSProcess = Process.GetProcessesByName(WINDOW_NAME).FirstOrDefault();
+            try {
+                AmongUSProcess = Process.GetProcessesByName(WINDOW_NAME).FirstOrDefault();
+                memory.OpenProcess(AmongUSProcess.Id);
 
-            memory.OpenProcess(AmongUSProcess.Id);
+                int initialStyle = GetWindowLong(this.Handle, -20); //851976
+                SetWindowLong(this.Handle, -20, initialStyle | 0x80000 | 0x20);
 
-            int initialStyle = GetWindowLong(this.Handle, -20); //851976
-            SetWindowLong(this.Handle, -20, initialStyle | 0x80000 | 0x20);
-
-            GetWindowRect(handle, out rect);
-            this.Size = new Size(rect.right - rect.left, rect.bottom - rect.top);
-            this.Top = rect.top;
-            this.Left = rect.left;
+                GetWindowRect(handle, out rect);
+                this.Size = new Size(rect.right - rect.left, rect.bottom - rect.top);
+                this.Top = rect.top;
+                this.Left = rect.left;
+            }
+            catch(NullReferenceException nre)
+            {
+                Console.WriteLine(nre);
+                MessageBox.Show(WINDOW_NAME + " not found", "Warning");
+                System.Windows.Forms.Application.ExitThread();
+            }
 
             //Minimize DropDown
             MovementPanel.Size = MovementPanel.MinimumSize;
